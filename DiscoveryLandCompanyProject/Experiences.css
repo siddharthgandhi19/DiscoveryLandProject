@@ -1,0 +1,418 @@
+*{
+    margin: 0 ;
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+    /* border: solid black; */
+}
+.videoClass{
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+}
+.logo{
+    width: 15%;
+    height: 5%;
+    /* border: solid white; */
+    position: absolute;
+    top: 10%;
+    left: 7%;
+}
+.anchorHeader{
+    float: right;
+     width: 40vw;
+    height: 15vh;
+    /* border: red solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 6%;
+}
+a{ /* for removal of underline in anchor tag */
+    text-decoration: none;
+    color: white;
+}
+.unforgetable{
+    width: 50%;
+    height: 50%;
+    /* border: solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 30px;
+    top: 25%;
+    left:8%;
+    color: white;
+    line-height: 190%;
+}
+.scroll{
+    width: 15%;
+    height: 10%;
+    /* border: solid red; */
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+}
+.sec{
+    width:100vw;
+    height: 50vh;
+    /* border: solid green; */
+    font-size:xx-large;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+} 
+.middlesection{
+    width: 100vw;
+    height:100vh ;
+    position: absolute;
+    /* border: purple solid;   */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.middlePara{
+    width:40%;
+    height: 100%;
+    /* border: yellow solid;  */
+
+}.midleParaImage{
+    width:40%;
+    height: 100%;
+    /* border: yellow solid;   */
+}
+.headingMiddle{
+        width: 20%;
+        height: 20%;
+        /* border: solid green; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:flex-start;
+        position: absolute;
+        top: 12%;
+        left: 12%;
+        font-size: xx-large;
+        line-height: 1.2;
+}
+.middlePara{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    line-height: 1.7;
+    text-align:left ;
+}
+.third{
+    width: 100vw;
+    height: 170vh;
+    /* border: red solid; */
+    background-color:lavender;
+}
+.greyBox1{
+    width: 60%;
+    height: 55%;
+    /* border: red solid; */
+    z-index: 1;
+    position: absolute;
+    top: 196%;
+    left:15%;
+    background-color: grey;
+}
+.imgBox1{
+    width: 70%;
+    height:120%;
+    /* border: solid red; */
+    background-image: url(https://discoverylandco.com/imager/images/11050/views-of-the-golf-course-at-Gozzer-5_4d32d1f061062da257f8ac1083a047ac.jpg);
+    z-index: 2;
+    position: absolute;
+    top:120%;
+}
+.whiteBox1{
+    width: 35%;
+    height:75%;
+    /* border: solid red; */
+    background-color: white;
+    z-index: 3;
+    position: absolute;
+    left: 57%;
+    top:140%;
+}
+.whiteBox1Headline{
+    width: 25%;
+    height:10%;
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    position: absolute;
+    top : 20%;
+    left: 9%;    
+}
+.whiteBox1Paragraph{
+    width: 100%;
+    height:40%;
+    /* border: solid red; */
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    top:30%;
+    left:9%;
+    line-height: 1.7;
+}
+.anchorBottonGolf{
+    width: 30%;
+    height:10%;
+    /* border: solid red; */
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    top:85%;
+    left: 35%;    
+}
+.fourth{
+    width: 100vw;
+    height: 150vh;
+    /* border: red solid; */
+    background-color:lavender;
+}
+.greyBox2{
+    width: 60%;
+    height: 55%;
+    /* border: red solid; */
+    z-index:4;
+    position: absolute;
+    top: 345%;
+    left:25%;
+    background-color: grey;
+}
+.imgBox2{
+    width: 70%;
+    height:120%;
+    /* border: solid red; */
+    background-image: url(https://discoverylandco.com/imager/images/11302/chileno-bay-golf-and-beach-club_2022-11-21-230733_gsdv_4d32d1f061062da257f8ac1083a047ac.jpg);
+    z-index: 5;
+    position: absolute;
+    top:270%;
+    left: 30%;
+}
+.whiteBox2{
+    width: 35%;
+    height:75%;
+    order: solid red;
+    background-color: white;
+    z-index: 6;
+    position: absolute;
+    left: 6%;
+    top:295%;
+}
+
+.whiteBox2Headline{
+    width: 50%;
+    height:10%;
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    position: absolute;
+    top : 20%;
+    left: 9%;    
+}
+.whiteBox2Paragraph{
+    width: 100%;
+    height:40%;
+    /* border: solid red; */
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    top:30%;
+    left:9%;
+    line-height: 1.7;
+}
+.anchorBottonOutdoor{
+    width: 30%;
+    height:10%;
+    /* border: solid red; */
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    top:85%;
+    left: 35%;    
+}
+
+.fifth{
+    width: 100vw;
+    height: 150vh;
+    /* border: red solid; */
+    background-color:lavender;
+}
+.greyBox3{
+    width: 60%;
+    height: 55%;
+    /* border: red solid; */
+    z-index: 7;
+    position: absolute;
+    top: 495%;
+    left:15%;
+    background-color: grey;
+}
+.imgBox3{
+    width: 70%;
+    height:120%;
+    /* border: solid red; */
+    background-image: url(https://discoverylandco.com/imager/images/12019/Zapotal-Luxury-Wellness_4d32d1f061062da257f8ac1083a047ac.jpg);
+    z-index: 8;
+    position: absolute;
+    top:420%;
+}
+.whiteBox3{
+    width: 35%;
+    height:75%;
+    /* border: solid red; */
+    background-color: white;
+    z-index: 9;
+    position: absolute;
+    left: 57%;
+    top:440%;
+}
+.whiteBox3Headline{
+    width: 25%;
+    height:10%;
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    position: absolute;
+    top : 20%;
+    left: 9%;    
+}
+.whiteBox3Paragraph{
+    width: 100%;
+    height:40%;
+    /* border: solid red; */
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    top:30%;
+    left:9%;
+    line-height: 1.7;
+}
+.anchorBottonWellness{
+    width: 30%;
+    height:10%;
+    /* border: solid red; */
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    top:85%;
+    left: 35%;    
+}
+.upperFotter{
+    width: 100vw;
+    height: 70vh;
+    /* border: solid red; */
+    z-index: -3;
+}
+.ourWorld{
+    z-index: 10;
+    width : 30%;
+    height:  20%;    
+    /* border: solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 30px;
+    top: 590%;
+    left:35%;
+    color: white;
+}
+.anchorBottonUpperFoter{
+    width: 15%;
+    height:10%;
+    /* border: solid red; */
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    top:610%;
+    left: 42%;
+    opacity: 0.8;
+}
+.footer{
+    width: 100vw;
+    height: 70vh;
+    /* border: solid black; */
+    background-color: rgb(64, 64, 64);
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.singleLogo{
+    width: 6%;
+    height: 12.5%;
+    top: 655%;
+    left: 10%;
+    position: absolute;
+}
+.content{
+    width: 60%;
+    height: 60%;
+    /* border: solid white; */
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.get{
+    width: 30%;
+    height: 100%;
+    color:white;
+    /* border: solid white; */
+    line-height: 300%;
+    text-align: center;
+}
+.about{
+    width: 30%;
+    height: 100%;
+    color:white;
+    /* border: solid white; */
+    line-height: 250%;
+    text-align: center;
+}
+.magazine{
+    width: 30%;
+    height: 100%;
+    color:white;
+    /* border: solid white; */
+    line-height: 250%;
+    text-align: center;
+}
+.footeEnd{
+    /* border: solid white; */
+    position: absolute;
+    top: 700%;
+    left: 7%;
+}
