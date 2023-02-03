@@ -7,6 +7,7 @@
     /* border: solid black; */
 }
 .videoClass{
+    width: 100vw;
     object-fit: cover;
     background-size: cover;
     background-position: center;
@@ -413,6 +414,6 @@ a{ /* for removal of underline in anchor tag */
 .footeEnd{
     /* border: solid white; */
     position: absolute;
-    top: 700%;
+    top: 704%;
     left: 7%;
 }
