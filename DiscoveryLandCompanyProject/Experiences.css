@@ -171,7 +171,7 @@ a{ /* for removal of underline in anchor tag */
     flex-direction: column;
     justify-content: center;
     position:absolute;
-    top:30%;
+    top:35%;
     left:9%;
     line-height: 1.7;
 }
@@ -184,7 +184,7 @@ a{ /* for removal of underline in anchor tag */
     justify-content: center;
     position:absolute;
     top:85%;
-    left: 35%;    
+    left:9%;    
 }
 .fourth{
     width: 100vw;
@@ -242,7 +242,7 @@ a{ /* for removal of underline in anchor tag */
     flex-direction: column;
     justify-content: center;
     position:absolute;
-    top:30%;
+    top:35%;
     left:9%;
     line-height: 1.7;
 }
@@ -255,7 +255,7 @@ a{ /* for removal of underline in anchor tag */
     justify-content: center;
     position:absolute;
     top:85%;
-    left: 35%;    
+    left:9%;    
 }
 
 .fifth{
@@ -312,7 +312,7 @@ a{ /* for removal of underline in anchor tag */
     flex-direction: column;
     justify-content: center;
     position:absolute;
-    top:30%;
+    top:35%;
     left:9%;
     line-height: 1.7;
 }
@@ -325,7 +325,7 @@ a{ /* for removal of underline in anchor tag */
     justify-content: center;
     position:absolute;
     top:85%;
-    left: 35%;    
+    left:9%;    
 }
 .upperFotter{
     width: 100vw;
@@ -384,32 +384,34 @@ a{ /* for removal of underline in anchor tag */
     float: right;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:end;
     align-items: center;
 }
 .get{
-    width: 30%;
+    width: 20%;
     height: 100%;
     color:white;
     /* border: solid white; */
-    line-height: 300%;
-    text-align: center;
+    line-height: 1.9;
+    text-align: left;
+    position: relative;
+    left: -10%;
 }
 .about{
-    width: 30%;
+    width: 20%;
     height: 100%;
     color:white;
     /* border: solid white; */
-    line-height: 250%;
-    text-align: center;
+    line-height: 1.9;
+    text-align: left;
 }
 .magazine{
     width: 30%;
     height: 100%;
     color:white;
     /* border: solid white; */
-    line-height: 250%;
-    text-align: center;
+    line-height: 1.9;
+    text-align: left;
 }
 .footeEnd{
     /* border: solid white; */
