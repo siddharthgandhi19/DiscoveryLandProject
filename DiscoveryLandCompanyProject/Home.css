@@ -1,0 +1,266 @@
+*{
+    margin: 0 ;
+}
+.header{
+    width: 100vw;
+    height: 118vh;
+    /* border: solid blue; */
+}
+.videoClass{
+    width: 100vw;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+}
+.logo{
+    width: 15%;
+    height: 5%;
+    border: solid white;
+    position: absolute;
+    top: 10%;
+    left: 7%;
+}
+.anchorHeader{
+    float: right;
+     width: 40vw;
+    height: 15vh;
+    /* border: red solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 6%;
+}
+a{ /* for removal of underline in anchor tag */
+    text-decoration: none;
+    color: white;
+}
+.discover{
+    width: 50%;
+    height: 50%;
+    /* border: solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 40px;
+    top: 160px;
+    left:100px;
+    color: white;
+    line-height: 190%;
+}
+.scroll{
+    width: 15%;
+    height: 7%;
+    /* border: solid red; */
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+}
+.middlesec{
+    width: 100vw;
+    height: 120vh;
+     /* border: solid red; */
+    display: flex;
+    flex-direction: row;
+}
+.leftbox{
+ 
+    width: 50%;
+    height: 100%;
+    /* border: solid green; */
+    display: flex;
+    flex-direction: column;
+}
+.rightbox{
+    width: 50%;
+    height: 100%;
+    /* border: solid green; */
+
+} 
+
+.paraheading{
+    width:30% ;
+    height: 10%;
+    /* border: solid greenyellow; */
+    position: relative;
+    left:130px;
+    font-size: 20px;
+}
+.para{
+    width:60% ;
+    height: 30%;
+    /* border: solid black; */
+    line-height: 1.9;
+    position: relative;
+    top:60px;
+    left:130px;
+}
+.imagebox{
+    width:70% ;
+    height: 40%;
+    /* border: solid orange; */
+    position: relative;
+    top:130px;
+    left: 100px;
+}
+.blankcontainer{
+    width: 100vw;
+    height: 18vh;
+    /* border: solid black; */
+}
+.textcontainer{
+    width: 100vw;
+    height: 35vh;
+    /* border: solid black; */
+    background-color: lightgray;
+}
+.paraheading1{
+    width:40% ;
+    height: 30%;
+    /* border: solid greenyellow; */
+    position: relative;
+    left: 130px;
+    top:30px
+}
+.para1{
+    width:60% ;
+    height: 30%;
+    /* border: solid black; */
+    line-height: 1.9;
+    position: relative;
+    left: 130px;
+    top:65px;
+    color: gray;
+    
+}
+.lowermiddle{
+    width: 100vw;
+    height: 105vh;
+    /* border: solid black; */
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+}
+.leftlowermiddle{
+    width: 50%;
+    height: 100%;
+    /* border: solid orange; */
+    position: relative;
+    left: -70px;
+    z-index: 1;
+}
+.rightlowermiddle{
+    width: 50%;
+    height: 100%;
+    /* border: solid pink; */
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:60px;
+}
+.blackbox{
+    width: 50%;
+    height: 80%;
+    /* border: solid red; */
+    background-color: black;
+}
+.imagebox1{
+    width: 50%;
+    height: 80%;
+    /* border: solid red; */
+}
+.upperfooter{
+    width: 100vw;
+    height: 90vh;
+    /* border: solid red; */
+    display: flex;
+    flex-direction: row;
+
+}
+.image1{
+    width: 33.3%;
+    height: 100%;
+    /* border: solid yellow; */
+    z-index: 10;
+}
+.image2{
+    width: 33.3%;
+    height: 100%;
+    /* border: solid yellow; */
+    z-index: 10;
+}
+.image3{
+    width: 33.4%;
+    height: 100%;
+    /* border: solid yellow; */
+    z-index: 10;
+}
+
+.footer{
+    width: 100vw;
+    height: 70vh;
+    /* border: solid black; */
+    background-color: rgb(64, 64, 64);
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.singleLogo{
+    width: 6%;
+    height: 12.5%;
+    top: 510%;
+    left: 10%;
+    position: absolute;
+}
+.content{
+    width: 60%;
+    height: 60%;
+    /* border: solid white; */
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    
+}
+.get{
+    width: 20%;
+    height: 100%;
+    color:white;
+    /* border: solid white; */
+    line-height: 1.9;
+    text-align: left;
+    position: relative;
+    left: -10%;
+}
+.about{
+    width: 20%;
+    height: 100%;
+    color:white;
+    /* border: solid white; */
+    line-height: 1.9;
+    text-align: left;
+}
+.magazine{
+    width: 30%;
+    height: 100%;
+    color:white;
+    /* border: solid white; */
+    line-height: 1.9;
+    text-align: left;
+}
+.footeEnd{
+    /* border: solid white; */
+    position: absolute;
+    top: 562%;
+    left: 7%;
+}
