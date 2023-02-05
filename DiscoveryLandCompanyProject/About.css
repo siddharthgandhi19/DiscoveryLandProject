@@ -71,7 +71,7 @@ a{ /* for removal of underline in anchor tag */
 } 
 .middleSec{
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     /* border: solid black; */
     display: flex;
     flex-direction: row;
@@ -79,7 +79,7 @@ a{ /* for removal of underline in anchor tag */
 }
 .middleSecPara{
     width: 40%;
-    height: 90%;
+    height: 80%;
     /* border: solid red; */
     display: flex;
     flex-direction: column;
@@ -90,24 +90,25 @@ a{ /* for removal of underline in anchor tag */
 }
 .middleSecImg{
     width: 40%;
-    height: 90%;
+    height: 80%;
     /* border: solid red; */
 }
 .middleBlackBox{
     width: 100vw;
-    height: 170vh;
+    height: 200vh;
     background-color: black;
+    /* border: solid green; */
 }
 .middleBlackTextBox{
-    width: 100%;
-    height: 40%;
+    width: 100vw;
+    height: 70vh;
     /* border: solid white; */
     display: flex;
     flex-direction: row;
 }
 .blackText1{
-    width: 50%;
-    height: 100%;
+    width: 50vw;
+    height: 30vh;
     /* border: solid red; */
 }
 .discovery{
@@ -117,7 +118,7 @@ a{ /* for removal of underline in anchor tag */
     color: white;
     position: relative;
     top: 112px;
-    left: 180px;
+    left: 170px;
 }
 .blackText2{
     width: 50%;
@@ -135,15 +136,19 @@ a{ /* for removal of underline in anchor tag */
     color: white;
     font-size: 18px;
     line-height: 1.5;
+    position: relative;
+    top:32px
 }
 .buttonPlayVideo{
     width: 25%;
     height:10%;
-    border: 0.5px solid white;
+    /* border: 0.5px solid white; */
     background-color: transparent;
     display:  flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+    top:4px;
 }
 .middleBlackImageBox{
     width: 100vw;
@@ -152,10 +157,12 @@ a{ /* for removal of underline in anchor tag */
     display: flex;
     flex-direction: row;
     justify-content: center;
+    position: relative;
+    top:50px;
 }
 .middleImage{
     width: 100vw;
-    height: 130vh;
+    height: 150vh;
     /* border: solid black; */
     display: flex;
     flex-direction: column;
@@ -204,15 +211,14 @@ a{ /* for removal of underline in anchor tag */
 }
 .lowerImg{
     width: 100vw;
-    height: 125vh;
+    height: 150vh;
     /* border: solid violet; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    position: relative;
+    top:50px;
 }
 .discoveryBuilderBox{
     width: 100vw;
-    height: 130vh;
+    height: 135vh;
     /* border: solid red; */
     display: flex;
     flex-direction: row-reverse;
@@ -284,12 +290,12 @@ a{ /* for removal of underline in anchor tag */
     justify-content: center;
     position: relative;
     top: -280px;  
-    left: 590px; 
+    left:610px; 
 }
 .footer{
-    width: 100vw;
+    width: 100.2vw;
     height: 70vh;
-    border: solid black;
+    /* border: solid black; */
     background-color: rgb(64, 64, 64);
     display: flex;
     flex-direction: row;
@@ -298,10 +304,10 @@ a{ /* for removal of underline in anchor tag */
 }
 .singleLogo{
     width: 6%;
-    height: 12.5%;    
+    height: 12.5%; 
     position: relative;
-    top: -110px;
-    left: -50px;
+    top:-100px;
+    left:-170px
 }
 .content{
     width: 50%;
@@ -345,5 +351,5 @@ a{ /* for removal of underline in anchor tag */
     /* border: solid white; */
     position: relative;
     top: 155px;
-    left: -1000px;
+    left: -935px;
 }

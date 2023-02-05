@@ -364,7 +364,7 @@ a{ /* for removal of underline in anchor tag */
     width: 100vw;
     height: 70vh;
     /* border: solid black; */
-    background-color: rgb(182, 67, 67);
+    background-color: rgb(64, 64, 64);
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -380,7 +380,7 @@ a{ /* for removal of underline in anchor tag */
 .content{
     width: 60%;
     height: 60%;
-    border: solid white;
+    /* border: solid white; */
     float: right;
     display: flex;
     flex-direction: row;
@@ -391,7 +391,7 @@ a{ /* for removal of underline in anchor tag */
     width: 20%;
     height: 100%;
     color:white;
-    border: solid white;
+    /* border: solid white; */
     line-height: 1.9;
     text-align: left;
     position: relative;
@@ -401,7 +401,7 @@ a{ /* for removal of underline in anchor tag */
     width: 20%;
     height: 100%;
     color:white;
-    border: solid white;
+    /* border: solid white; */
     line-height: 1.9;
     text-align: centre;
 }
@@ -409,7 +409,7 @@ a{ /* for removal of underline in anchor tag */
     width: 30%;
     height: 100%;
     color:white;
-    border: solid white;
+    /* border: solid white; */
     line-height: 1.9;
     text-align: left;
 }
